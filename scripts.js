@@ -25,12 +25,7 @@ console.log( "sconto 40%:",prezzoBigliettoOver);
 const bigliettoScontatoOver=prezzoBiglietto-prezzoBigliettoOver;
 console.log("lo sconto è di:",bigliettoScontatoOver);
 numb=prezzoScontato;
-numb=numb.toFixed(2)
-rounded=Math.round((numb + Number.EPSILON )*100 /100);
-console.log(rounded);
-
-// console.log("sconto 40%:",prezzoBigliettoOver);
-
-// prezzoBigliettoUno= Math.round(Math.floor(prezzoBiglietto*40)/100);
-// console.log(prezzoBigliettoUno)
-
+Math.round(((prezzoScontato).toFixed(2)));
+console.log(Math.round(prezzoScontato).toFixed(2));
+Math.round((( bigliettoScontatoOver).toFixed(2)));
+console.log(Math.round(bigliettoScontatoOver).toFixed(2));
